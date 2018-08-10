@@ -13,3 +13,6 @@ git config --global alias.stsh 'stash --keep-index'
 git config --global alias.staash 'stash --include-untracked'
 
 git config --global alias.staaash 'stash --all'
+
+<h3> git Branch </h3>
+git config --global alias.del 'branch -D'
