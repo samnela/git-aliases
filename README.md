@@ -21,4 +21,8 @@ git config --global alias.br  branch
 
 git config --global alias.del 'branch -D'
 
-git config --global alias.dela "!f(){ git branch -D $2 && git push $1 -d $2 ; }; f"
+git config --global alias.dela '!f(){ git branch -D $2 && git push $1 -d $2 ; }; f'
+
+<h3> git Log </h3>
+
+git config --global alias.last 'log -1 HEAD'
