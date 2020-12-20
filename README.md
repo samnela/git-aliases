@@ -26,3 +26,7 @@ git config --global alias.dela '!f(){ git branch -D $2 && git push $1 -d $2 ; };
 <h3> git Log </h3>
 
 git config --global alias.last 'log -1 HEAD'
+
+<h3> git Wip </h3>
+
+git config --global alias.wip "for-each-ref --sort='authordate:iso8601' --format=' %(color:green)%(authordate:relative)%09%(color:white)%(refname:short)' refs/heads"
