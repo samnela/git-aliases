@@ -20,6 +20,8 @@ git config --global alias.staaash 'stash --all'
 ```bash
 git config --global alias.br  branch
 
+git config --global alias.rename 'branch -m'
+
 git config --global alias.del 'branch -D'
 
 git config --global alias.dela '!f(){ git branch -D $2 && git push $1 -d $2 ; }; f'
